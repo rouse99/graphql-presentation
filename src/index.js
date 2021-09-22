@@ -26,7 +26,7 @@ const server = new GraphQLServer({
 });
 
 server.start(() => {
-    console.log('The server is up!');
+    console.log('The server is running on port 4000!');
 });
 
 process.on('SIGINT', () => { console.log("Bye bye!"); process.exit(); })
